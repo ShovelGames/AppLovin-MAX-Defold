@@ -777,17 +777,17 @@ public class MaxDefoldPlugin
         sendDefoldEvent( ( MaxAdFormat.MREC == adFormat ) ? "OnMRecAdCollapsedEvent" : "OnBannerAdCollapsedEvent", getAdInfo( ad ) );
     }
 
-    @Override
-    public void onRewardedVideoCompleted(final MaxAd ad)
-    {
+    // @Override
+    // public void onRewardedVideoCompleted(final MaxAd ad)
+    // {
         // This event is not forwarded
-    }
+    // }
 
-    @Override
-    public void onRewardedVideoStarted(final MaxAd ad)
-    {
+    // @Override
+    // public void onRewardedVideoStarted(final MaxAd ad)
+    // {
         // This event is not forwarded
-    }
+    // }
 
     @Override
     public void onUserRewarded(final MaxAd ad, final MaxReward reward)
